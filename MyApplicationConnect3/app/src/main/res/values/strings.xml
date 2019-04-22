@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyApplicationConnect3</string>
+    <string name="imageviewtopleft">imageViewTopLeft</string>
+    <string name="imageviewtopright">imageViewTopRight</string>
+    <string name="imageviewmiddlecenter">imageViewMiddleCenter</string>
+    <string name="imageviewtopcenter">imageViewTopCenter</string>
+    <string name="imageviewmiddleleft">imageViewMiddleLeft</string>
+    <string name="imageviewmiddleright">imageViewMiddleRight</string>
+    <string name="imageviewbottomleft">imageViewBottomLeft</string>
+    <string name="imageviewbottomcenter">imageViewBottomCenter</string>
+    <string name="imageviewbottomright">imageViewBottomRight</string>
+    <string name="connect3">--- Connect3 ---</string>
+</resources>
