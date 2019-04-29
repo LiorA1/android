@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:columnCount="2"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/buttonHello"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:onClick="OnBtnClick_Hello"
+            android:text="@string/hello" />
+
+        <Button
+            android:id="@+id/buttonHowAreYou"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:onClick="OnBtnClick_HowAreYou"
+            android:text="@string/howareyou" />
+
+        <Button
+            android:id="@+id/buttonPlease"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:onClick="OnBtnClick_Please"
+            android:text="@string/please" />
+
+        <Button
+            android:id="@+id/buttonWelcome"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:onClick="OnBtnClick_Welcome"
+            android:text="@string/welcome" />
+
+        <Button
+            android:id="@+id/buttonMyNameIs"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:onClick="OnBtnClick_MyNameIs"
+            android:text="@string/my_name_is" />
+
+        <Button
+            android:id="@+id/buttonILiveIn"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:onClick="OnBtnClick_ILiveIn"
+            android:text="@string/i_live_in" />
+
+        <Button
+            android:id="@+id/buttonGoodEvening"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:onClick="OnBtnClick_GoodEvening"
+            android:text="@string/good_evening" />
+
+        <Button
+            android:id="@+id/button_DYSE"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:onClick="OnBtnClick_DYSE"
+            android:text="@string/do_you_speak_english" />
+
+
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
