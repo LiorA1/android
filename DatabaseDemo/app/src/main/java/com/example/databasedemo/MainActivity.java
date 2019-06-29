@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity
             myDB.execSQL("INSERT INTO users(name, age) VALUES ('Nick', 28)");
 
             ContentValues first = new ContentValues();
-            first.put("name", "Lior");
-            first.put("age", 33);
+            first.put("name", "Nickb");
+            first.put("age", 30);
             myDB.insert("users", "(name, age)", first);
 
             // Setting a cursor :
